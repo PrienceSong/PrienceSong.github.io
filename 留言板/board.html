@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, scale=0.8">
+    <title>留言板</title>
+    <link rel="stylesheet" href="board.css">
+</head>
+
+
+<body>
+    <!-- 这是网站的头部，包含标题和导航栏 -->
+    <header>
+        <!-- 第一部分为标题列，由当前标题和一个小logo组成 -->
+        <div class="title">
+            <img src="image/图层 1.png" id="图层1">
+            <span>留言板</span>
+        </div>
+        <!-- 第二部分为导航栏，用来实现网页间的跳转 -->
+        <nav>
+            <!-- middle类即为版心范围类，所有的内容都在版心之间 -->
+            <div class="middle">
+                <!-- 写在同一行上可消除行内块元素不可见字符造成的缝隙问题 -->
+                <a href="../自我介绍/Brief_Intro.html" id="jianjie">自我介绍</a><a href="../休闲娱乐/sparetime.html" id="keyu">休闲娱乐</a><a href="#" id="liuyanban">留言板</a><a href="../Q&A/Q&A.html" id="QandA">Q&A</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 用来显示一张背景图片的盒子 -->
+    <div class="middle" id="bigpic">
+    </div>
+
+    <!-- 主体部分 -->
+    <div class="middle" id="contect">
+
+        <!-- 显示联系方式 -->
+        <div id="left">
+            <h1>联系我吧！</h1>
+            <p id="img">
+                <img src="image/头像.webp" alt="">
+            </p>
+            <p class="p_con">QQ:&nbsp&nbsp&nbsp&nbsp&nbsp1805415732</p>
+            <p class="p_con">VX:&nbsp&nbsp&nbsp&nbsp&nbspwxid_bgf26jjsizlinx</p>
+            <p class="p_con">steam:&nbsp&nbsp&nbsp&nbsp&nbsp是个好人</p>
+            <p class="p_con">邮箱:&nbsp&nbsp&nbsp&nbsp&nbsp1805415732@qq.com</p>
+        </div>
+
+        <!-- 右侧为表单制成的留言板 -->
+        <div id="right">
+
+            <form action="#" method="post" class="gossip">
+                <h1>留言板
+                    <span>给我留言吧</span>
+                </h1>
+                <label>
+                    <span>你的名字 :</span>
+                    <input id="name" type="text" name="name" placeholder="请输入你的名字" />
+                </label>
+                <label>
+                    <span>你的邮箱 :</span>
+                    <input id="email" type="email" name="email" placeholder="请输入你的邮箱" />
+                </label>
+
+                <label>
+                    <span>留言内容 :</span>
+                    <textarea id="message" name="message" placeholder="请输入留言"></textarea>
+                </label>
+
+                <label>
+                    <span>&nbsp;</span>
+                    <input type="button" class="button" value="发送" />
+                    </label>
+            </form>
+
+        </div>
+
+    </div>
+
+    <!-- 以下是网站的页脚部分 -->
+    <footer>
+        <!-- 视觉效果上形成一道分割线 -->
+        <div id="split">
+        </div>
+
+        <!-- 这个盒子里装着实际的页脚内容 -->
+        <div class="middle">
+            <!-- 页脚左边：联系方式 -->
+            <div class="Part" id="PartOne">
+                <img src="image/Snipaste_2022-06-22_15-44-41.png" alt="QQ二维码" id="QQ">
+                <table id="infor">
+                    <tr>
+                        <th>QQ:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp1805415732</td>
+                    </tr>
+                    <tr>
+                        <th>邮箱:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp1805415732@qq.com</td>
+                    </tr>
+                    <tr>
+                        <th>steam:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp是个好人</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- 页脚中间：头像姓名 -->
+            <div class="Part" id="PartTwo">
+                <div id="touXiang">
+                    <img src="image/头像.png" alt="头像" id="touxiang"><br> 宋岳朋
+                </div>
+            </div>
+            <!-- 页脚右侧：感谢语句 -->
+            <div class="Part" id="PartThree">
+                感谢您的访问！
+            </div>
+        </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

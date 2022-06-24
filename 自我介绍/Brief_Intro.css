@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+/* 网站头部css */
+
+header {
+    height: 154px;
+}
+
+
+/* 标题栏css */
+
+header .title {
+    height: 102px;
+    background-color: rgb(213, 100, 100);
+    line-height: 102px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+
+
+/* 标题里面的小图标 */
+
+#图层1 {
+    height: 40px;
+}
+
+
+/* 导航栏 */
+
+导航栏 header nav {
+    height: 52px;
+    background-color: rgb(70, 70, 70);
+}
+
+
+/* 确定版心为凝胶布局 */
+
+.middle {
+    width: 1650px;
+    margin: 0 auto;
+}
+
+
+/* 实现导航栏选择变色效果 */
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    height: 52px;
+    width: 412.5px;
+    text-align: center;
+    line-height: 52px;
+    color: white;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    font-weight: normal;
+    background-color: rgb(70, 70, 70);
+}
+
+#jianjie,
+nav a:hover {
+    background-color: #ff7000;
+}
+
+
+/* 确定导航栏位置 */
+
+a .jianjie {
+    margin: left 600px;
+}
+
+
+/* 以上为网页头部的css代码 */
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+/* 这是侧边导航栏的css代码 */
+
+aside {
+    width: 190px;
+    height: 200px;
+    background-color: rgb(70, 70, 70, 0.3);
+    position: fixed;
+    top: 300px;
+}
+
+aside ul {
+    padding: 0;
+}
+
+
+/* 导航栏列表格式 */
+
+aside ul li {
+    height: 50px;
+    margin: 0;
+    line-height: 50px;
+    padding: 0 10px;
+    list-style: none;
+}
+
+
+/* 导航栏里面的链接样式 */
+
+aside ul li a {
+    font-size: 20px;
+    color: #ff7000;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px;
+    margin-right: -10px;
+}
+
+aside ul li a span {
+    float: right;
+}
+
+
+/* 导航栏悬浮变色效果 */
+
+aside ul li a:hover {
+    color: blue;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* 以下为主要内容区的css代码 */
+
+
+/* 指定内容区域的高度 */
+
+#content {
+    height: 2730px;
+    background-color: #f5f7f9;
+}
+
+#content .bar {
+    /* 不同内容之间用bar分开 */
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 120px;
+    line-height: 120px;
+    background-color: rgb(194, 43, 161);
+}
+
+#content .life .bar {
+    background-color: plum;
+}
+
+#content #study .bar {
+    background-color: aqua;
+}
+
+#One {
+    /* 第一大部分整体的div设置 */
+    height: 750px;
+    background-image: url(image/信封.webp);
+}
+
+#upper-1 {
+    /* 上方div设置 */
+    height: 470px;
+}
+
+#left-upper-1 {
+    /* 上方的左侧div设置 */
+    width: 550px;
+    float: left;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    height: 450px;
+    margin: 10px 50px;
+}
+
+#right-upper-1 ul li h1,
+#left-upper-1 ul li h1 {
+    /* 上方左侧和右侧div里的h1设置 */
+    display: inline;
+    font-size: 20px;
+    color: red;
+}
+
+#left-upper-1 ul {
+    /* 实现右对齐效果 */
+    list-style: none;
+    text-align: right;
+}
+
+#middle-upper-1 {
+    /* 上方中间div设置 */
+    float: left;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+#middle-upper-1 img {
+    /* 中间div里面的图片设置 */
+    width: 300px;
+    height: 390px;
+    border-radius: 20px;
+}
+
+#right-upper-1 {
+    /* 上方右侧div设置 */
+    width: 550px;
+    float: right;
+    line-height: 75px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    height: 450px;
+    margin: 10px 50px;
+}
+
+#right-upper-1 ul {
+    list-style: none;
+    text-align: left;
+}
+
+#left-down-1,
+#right-down-1 {
+    /* 下方左右div设置 */
+    float: left;
+    width: 825px;
+    margin-top: 20px;
+    height: 250px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+#left-down-1 h1,
+#right-down-1 h1 {
+    color: red;
+}
+
+.life {
+    /* 指定第二部分内容区域高度 */
+    height: 600px;
+}
+
+#left-2 {
+    /* 左侧div设置 */
+    width: 300px;
+    height: 400px;
+    float: left;
+    background-image: url(image/f6e761df31377570b7152c3fdb15cba.jpg);
+    background-size: 300px 400px;
+    margin-left: 100px;
+}
+
+#right-2 {
+    /* 右侧div设置 */
+    width: 300px;
+    height: 400px;
+    float: right;
+    background-image: url(image/13e220bb12a1e2df8eadfb837f37bbc.jpg);
+    background-size: 300px 400px;
+    margin-right: 100px;
+}
+
+#middle-2 {
+    /* 中间div设置 */
+    float: left;
+    margin-top: 0;
+    margin-left: 75px;
+    width: 710px;
+    line-height: 30px;
+    font-size: 21px;
+    background-color: #FFF8DC;
+}
+
+#middle-2 p {
+    text-indent: 2em;
+}
+
+
+/* 技能学习部分的代码 */
+
+.route h2,
+.skilltree h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.skilltree .item {
+    margin-right: 400px;
+    margin-left: 600px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+.item .describe {
+    width: 130px;
+    float: left;
+    font-family: "Microsoft Yahei";
+    margin-right: 12px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.skilltree .progress {
+    position: relative;
+    width: 500px;
+    float: left;
+    margin: 0 -1px;
+    height: 35px;
+    line-height: 35px;
+    text-align: left;
+    background: #c2bcbc;
+    border: none;
+}
+
+.progress .green {
+    width: 75px;
+    height: 35px;
+    background-color: rgb(43, 197, 29);
+}
+
+.progress .orange {
+    width: 150px;
+    background-color: #f2b63c;
+}
+
+.progress .purple {
+    width: 275px;
+    background-color: #7782d1;
+}
+
+.progress .yellow {
+    width: 50px;
+    background-color: #c1e22f;
+}
+
+.progress .red {
+    width: 115px;
+    background-color: #ee5353;
+}
+
+.route {
+    height: 723px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#route_img {
+    width: 1200px;
+}
+
+footer {
+    height: 105px;
+    background-color: rgb(70, 70, 70);
+}
+
+
+/* 视觉上形成分割线 */
+
+#split {
+    height: 5px;
+    background-color: rgb(213, 100, 100);
+}
+
+footer .middle .Part {
+    float: left;
+    width: 550px;
+    height: 100px;
+    color: white;
+}
+
+
+/* 指定页尾中现实信息的位置 */
+
+#QQ {
+    height: 100px;
+    margin-left: 150px;
+}
+
+#infor {
+    margin-left: 50px;
+    display: inline-block;
+    height: 100px;
+}
+
+#infor th {
+    text-align: left;
+}
+
+#touXiang {
+    height: 100px;
+    width: 550px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#touxiang {
+    height: 80px;
+}
+
+#Mingzi {
+    height: 20px
+}
+
+#PartThree {
+    text-align: center;
+    line-height: 100px;
+    text-align: center;
+}

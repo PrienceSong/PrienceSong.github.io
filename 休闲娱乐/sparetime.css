@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+
+/* 网站头部css */
+
+header {
+    height: 154px;
+}
+
+
+/* 标题栏css */
+
+header .title {
+    height: 102px;
+    background-color: rgb(213, 100, 100);
+    line-height: 102px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+}
+
+
+/* 标题里面的小图标 */
+
+#图层1 {
+    height: 40px;
+}
+
+导航栏 header nav {
+    height: 52px;
+    background-color: rgb(70, 70, 70);
+}
+
+
+/* 确定版心为凝胶布局 */
+
+.middle {
+    width: 1650px;
+    margin: 0 auto;
+}
+
+
+/* 实现导航栏选择变色效果 */
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    height: 52px;
+    width: 412.5px;
+    text-align: center;
+    line-height: 52px;
+    color: white;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    font-weight: normal;
+    background-color: rgb(70, 70, 70);
+}
+
+#keyu,
+nav a:hover {
+    background-color: #ff7000;
+}
+
+a .jianjie {
+    margin: left 600px;
+}
+
+
+/* 这是侧边导航栏的css代码 */
+
+
+/* 这是侧边导航栏的css代码 */
+
+aside {
+    /* 侧边栏尺寸 */
+    width: 190px;
+    height: 200px;
+    background-color: rgb(70, 70, 70, 0.3);
+    position: fixed;
+    top: 300px;
+}
+
+aside ul {
+    padding: 0;
+}
+
+aside ul li {
+    height: 50px;
+    margin: 0;
+    line-height: 50px;
+    padding: 0 10px;
+    list-style: none;
+}
+
+aside ul li a {
+    /* 侧边栏a元素显示效果 */
+    font-size: 20px;
+    color: #ff7000;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px;
+    margin-right: -10px;
+}
+
+aside ul li a span {
+    float: right;
+}
+
+aside ul li a:hover {
+    color: blue;
+}
+
+
+/* ----------------------------------------------------------------------------- */
+
+
+/* 以下是内容部分 */
+
+.contect {
+    /* 版心尺寸 */
+    width: 1650px;
+    margin: 0 auto;
+    height: 3900px;
+}
+
+.transpic {
+    /* 过度照片设置 */
+    width: 1650px;
+    height: 600px;
+}
+
+
+/* 每张过渡图片的设置 */
+
+#transpic01 {
+    background-image: url(image/图书馆.webp);
+    background-size: 1650px 600px;
+}
+
+#transpic02 {
+    background-image: url(image/illust_29883755_20201109_084800.jpg);
+    background-size: 1650px 600px;
+}
+
+#transpic03 {
+    background-image: url(image/影院.webp);
+    background-size: 1650px 600px;
+}
+
+.frame {
+    /* 大的内容框架的css代码 */
+    height: 700px;
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+
+#BOOK {
+    background-color: aquamarine;
+}
+
+#FILM {
+    background-color: rgb(141, 155, 235);
+}
+
+
+/* 大框架左部分css代码以及针对不同的div进行的调整 */
+
+.left {
+    width: 150px;
+    height: 50px;
+    margin: 325px 0;
+    float: left;
+    background-color: rgb(68, 197, 68);
+    line-height: 50px;
+    text-align: center;
+}
+
+#COMIC .left {
+    background-color: rgb(246, 62, 62);
+}
+
+#FILM .left {
+    background-color: rgb(52, 107, 226);
+}
+
+
+/* 大框架右部分css代码以及针对不同的div进行的调整 */
+
+.right {
+    width: 1300px;
+    float: left;
+    margin: 50px 0 50px 100px;
+    padding: 0;
+    background-color: purple;
+    height: 600px;
+}
+
+.right_row {
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+#BOOK .right_row {
+    background-color: rgb(136, 226, 211);
+}
+
+#COMIC .right_row {
+    background-color: rgb(219, 135, 135);
+}
+
+#FILM .right_row {
+    background-color: rgb(130, 106, 235);
+}
+
+.itempic {
+    height: 175px;
+    width: 150px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    background-color: orange;
+    float: left;
+}
+
+.comment {
+    /* 评价行的设置 */
+    width: 950px;
+    height: 175px;
+    float: left;
+    background-color: white;
+    margin-left: 110px;
+}
+
+.table_comment th,
+.table_comment td {
+    /* 评价表格中单元格的设置 */
+    padding: 0;
+    height: 42.9px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.table_comment {
+    border-collapse: collapse;
+}
+
+.table_comment,
+.table_comment th,
+.table_comment td {
+    border: 1px solid black;
+}
+
+.table_comment th {
+    width: 150px;
+}
+
+.table_comment td {
+    width: 850px;
+}
+
+#ipic02 {
+    /* 展示照片的设置 */
+    background-image: url(image/万火归一.jfif);
+    background-size: 150px 175px;
+}
+
+#ipic01 {
+    background-image: url(image/太阳之塔.jfif);
+    background-size: 150px 175px;
+}
+
+#ipic03 {
+    background-image: url(image/少女.jfif);
+    background-size: 150px 175px;
+}
+
+#ipic04 {
+    background-image: url(image/鬼灭.jfif);
+    background-size: 150px 175px;
+}
+
+#ipic05 {
+    background-image: url(image/处刑少女.jfif);
+    background-size: 150px 175px;
+}
+
+#ipic06 {
+    background-image: url(image/过家家.jfif);
+    background-size: 150px 175px;
+}
+
+#ipic07 {
+    background-image: url(image/神海.webp);
+    background-size: 150px 175px;
+}
+
+#ipic08 {
+    background-image: url(image/新蝙蝠侠.webp);
+    background-size: 150px 175px;
+}
+
+#ipic09 {
+    background-image: url(image/无归.webp);
+    background-size: 150px 175px;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+
+/* 以下是页脚的具体css代码 */
+
+footer {
+    /* 页脚的设置 */
+    height: 105px;
+    background-color: rgb(70, 70, 70);
+}
+
+
+/* 视觉上形成分割线 */
+
+#split {
+    height: 5px;
+    background-color: rgb(213, 100, 100);
+}
+
+footer .middle .Part {
+    float: left;
+    width: 550px;
+    height: 100px;
+    color: white;
+}
+
+
+/* 指定页尾中显示信息的位置相关设置 */
+
+#QQ {
+    height: 100px;
+    margin-left: 150px;
+}
+
+#infor {
+    margin-left: 50px;
+    display: inline-block;
+    height: 100px;
+}
+
+#infor th {
+    text-align: left;
+}
+
+#touXiang {
+    height: 100px;
+    width: 550px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#touxiang {
+    height: 80px;
+}
+
+#Mingzi {
+    height: 20px
+}
+
+#PartThree {
+    text-align: center;
+    line-height: 100px;
+    text-align: center;
+}

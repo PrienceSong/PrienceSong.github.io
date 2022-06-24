@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, scale=0.8">
+    <title>自我介绍</title>
+    <link rel="stylesheet" href="Brief_Intro.css">
+</head>
+
+<body>
+    <!-- 这是网站的头部，包含标题和导航栏 -->
+    <header>
+        <!-- 第一部分为标题列，由当前标题和一个小logo组成 -->
+        <div class="title">
+            <img src="image/图层 1.png" id="图层1">
+            <span>自我介绍</span>
+        </div>
+        <!-- 第二部分为导航栏，用来实现网页间的跳转 -->
+        <nav>
+            <!-- middle类即为版心范围类，所有的内容都在版心之间 -->
+            <div class="middle">
+                <!-- 写在同一行上可消除行内块元素不可见字符造成的缝隙问题 -->
+                <a href="#" id="jianjie">自我介绍</a><a href="../休闲娱乐/sparetime.html" id="keyu">休闲娱乐</a><a href="../留言板/board.html" id="liuyanban">留言板</a><a href="../Q&A/Q&A.html" id="QandA">Q&A</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- 这是网页的侧边导航栏 -->
+    <aside>
+        <!-- 侧边导航栏使用fixed定位，使用列表的方式布置侧边导航栏 -->
+        <ul>
+            <li>
+                <a href="#">个人简介 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> > </span></a>
+            </li>
+
+            <li>
+                <a href="#life">生活经历 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> > </span></a>
+            </li>
+
+            <li>
+                <a href="#study">学习技能 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> > </span></a>
+            </li>
+
+            <li>
+                <a href="#">返回顶部 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> ^ </span></a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- 以下为主要内容区域 -->
+    <div class="middle" id="content">
+        <!-- Part one :个人简历 -->
+        <div id="resume">
+
+            <div class="bar">
+                <h1>个人简介</h1>
+            </div>
+            <!-- 盛放个人简历部分内容的div，其中又分为上下两个标准流div -->
+            <div id="One">
+                <!-- 上方的div又分为左中右三个div，三个div向左浮动布局 -->
+                <div id="upper-1">
+                    <!-- 左边div为一个无序列表 -->
+                    <div id="left-upper-1">
+                        <ul>
+                            <li>
+                                宋岳朋
+                                <h1>:姓名</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
+                            <li>
+                                男
+                                <h1>：性别</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
+                            <li>
+                                本科
+                                <h1>：学历</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
+                            <li>
+                                共青团员
+                                <h1>：政治面貌</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
+                            <li>
+                                信管
+                                <h1>：专业</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
+                            <li>
+                                山东省XX市
+                                <h1>：籍贯</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 中间div盛放一张图片 -->
+                    <div id="middle-upper-1"><img src="image/正脸照片.jpg" alt="正脸图片"></div>
+                    <!-- 右边的div也为一个对称的无序列表 -->
+                    <div id="right-upper-1">
+                        <ul>
+                            <li>
+                                <h1>联系方式：</h1>138XXXXXXXX
+                            </li>
+                            <li>
+                                <h1>住址：</h1>XXXX街道XXXX号XXX单元X号
+                            </li>
+                            <li>
+                                <h1>就读学校：</h1>ZUEL
+                            </li>
+                            <li>
+                                <h1>出生年月：</h1>2001/11/08
+                            </li>
+                            <li>
+                                <h1>主修课程：</h1>数据库、数据统计分析、软件设计等
+                            </li>
+                            <li>
+                                <h1>血型：</h1>A型血
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 下方的div分为左右两个div 向左浮动布局-->
+                <div id="down-1">
+                    <!-- 左边div盛放文字 -->
+                    <div id="left-down-1">
+                        <h1>自我评价</h1>
+                        <p>具有较强的组织领导能力和协调沟通能力<br> 有良好的团队精神，为人诚实可靠，能较好完成任务
+                            <br> 有较强的随机应变能力，执行力较强。
+                            <br> 缺点是过度敏感，不喜欢和他人主动沟通
+                        </p>
+                    </div>
+                    <div id="right-down-1">
+                        <!-- 右边div也盛放文字 -->
+                        <h1>专业技能</h1>
+                        <p>
+                            能熟练使用office系列软件<br> 稍微有一点ps和pr基础
+                            <br> 英语四级优秀通过
+                            <br> java和前端会一点点
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+
+        <!-- Part two: 生活经历  分为分割栏和左中右三个div-->
+        <div class="life" id="life">
+            <div class="bar">
+                <h1>生活经历</h1>
+            </div>
+            <!-- 左边的div向左浮动 用背景展示图片-->
+            <div id="left-2"></div>
+            <!-- 中间的div留出两侧的margin -->
+            <div id="middle-2">
+                <p>我出生于山东省的一个小县城。自幼时起，父母便对我进行了悉心地教导，给我营造了一个良好的成长空间。在父母的支持下，我选择了在竹笛演奏方面进行深造，最高过取得全国邀请赛银奖的成绩。与此同时，我孤僻喜欢思考独处的性格也让我学业方面较为轻松地取得了成绩，最终顺利考进了我们市一中的实验班。</p>
+                <p>高三那年，发生了一件彻底改变我们当今生活的大事——新冠疫情。自那时起，也许是受到疫情中武汉人民英勇行为的影响，一个念头开始在我脑海中生根：我要去武汉，我要考武汉大学。至于具体的专业嘛，反正现在万行都转宇宙机，选计算机专业准没错。虽然最后成绩出来后，我的分数距离武汉大学那真是差了一大截，但是巧合的是我被最终被中南财大计算机系所录取了，也算是变相圆了我到武汉学习的梦想。</p>
+                <p>
+                    在大学里，我开始了一段充实多彩的学习生活。我十分喜爱自己的专业，一直为了自己的学习而努力，最终也取得了还算满意的成绩。同时，我还积极参与各项活动，不断提升自己的专业技能。我珍惜生活给予我的一切，努力奋斗着，为未来时刻准备着。
+                </p>
+
+            </div>
+            <!-- 右边的div向右浮动 用背景展示图片 -->
+            <div id="right-2"></div>
+        </div>
+
+
+        <!-- Part three:学习技能 -->
+        <div id="study">
+            <div class="bar">
+                <h1>学习技能</h1>
+            </div>
+
+            <!-- 学习技能里的第一个部分：技能树 -->
+            <div class="skilltree">
+                <h2>我的技能树</h2>
+
+                <div class="item">
+                    <!-- 每行显示左边的名称和右边的进度条 -->
+                    <div class="describe">
+                        前端
+                    </div>
+                    <!-- 右边的进度条通过设置背景颜色和内部span的长度实现 -->
+                    <div class="progress">
+                        <div class="green">
+                            20%
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="describe">
+                        Java
+                    </div>
+                    <div class="progress">
+                        <div class="orange">
+                            30%
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="describe">
+                        英语
+                    </div>
+                    <div class="progress">
+                        <div class="purple">
+                            55%
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="describe">
+                        日语
+                    </div>
+                    <div class="progress">
+                        <div class="yellow">
+                            10%
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="describe">
+                        c++
+                    </div>
+                    <div class="progress">
+                        <div class="red">
+                            23%
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- 学习技能里的第二个部分：学习路线 -->
+            <div class="route">
+                <h2>参考学习路线</h2>
+                <img src="image/route.png" alt="参考学习路线" id="route_img">
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+    <!-- 以下是网站的页脚部分 -->
+    <footer>
+        <!-- 视觉效果上形成一道分割线 -->
+        <div id="split">
+        </div>
+
+        <!-- 这个盒子里装着实际的页脚内容  分为左中右三个部分 -->
+        <div class="middle">
+            <!-- 页脚左边：联系方式 -->
+            <div class="Part" id="PartOne">
+                <img src="image/Snipaste_2022-06-22_15-44-41.png" alt="QQ二维码" id="QQ">
+                <table id="infor">
+                    <tr>
+                        <th>QQ:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp1805415732</td>
+                    </tr>
+                    <tr>
+                        <th>邮箱:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp1805415732@qq.com</td>
+                    </tr>
+                    <tr>
+                        <th>steam:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp是个好人</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- 页脚中间：头像姓名 -->
+            <div class="Part" id="PartTwo">
+                <div id="touXiang">
+                    <img src="image/头像.png" alt="头像" id="touxiang"><br> 宋岳朋
+                </div>
+            </div>
+            <!-- 页脚右侧：感谢语句 -->
+            <div class="Part" id="PartThree">
+                感谢您的访问！
+            </div>
+        </div>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>

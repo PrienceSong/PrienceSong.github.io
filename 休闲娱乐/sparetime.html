@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, scale=0.8">
+    <title>课余生活</title>
+    <link rel="stylesheet" href="sparetime.css">
+</head>
+
+
+
+<body>
+    <!-- 这是网站的头部，包含标题和导航栏 -->
+    <header>
+        <!-- 第一部分为标题列，由当前标题和一个小logo组成 -->
+        <div class="title">
+            <img src="image/图层 1.png" id="图层1">
+            <span>休闲娱乐</span>
+        </div>
+        <!-- 第二部分为导航栏，用来实现网页间的跳转 -->
+        <nav>
+            <!-- middle类即为版心范围类，所有的内容都在版心之间 -->
+            <div class="middle">
+                <!-- 写在同一行上可消除行内块元素不可见字符造成的缝隙问题 -->
+                <a href="../自我介绍/Brief_Intro.html" id="jianjie">自我介绍</a><a href="../休闲娱乐/sparetime.html" id="keyu">休闲娱乐</a><a href="../留言板/board.html" id="liuyanban">留言板</a><a href="../Q&A/Q&A.html" id="QandA">Q&A</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- 这是一个使用fixed定位的侧边导航栏，用于实现页面内的锚点跳转 -->
+    <aside>
+        <!-- 使用ul列表展示侧边栏 -->
+        <ul>
+            <li>
+                <a href="#BOOK">书籍 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> > </span></a>
+            </li>
+
+            <li>
+                <a href="#COMIC">番剧&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> > </span></a>
+            </li>
+
+            <li>
+                <a href="#FILM">电影 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span> > </span></a>
+            </li>
+
+            <li>
+                <a href="#图层1">返回顶部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span> ^ </span></a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- 盛放主要内容的盒子 -->
+    <div class="contect">
+
+        <div class="transpic" id="transpic01"></div>
+        <!-- 第一部分内容：书籍 -->
+        <div class="frame" class="middle" id="BOOK">
+            <!-- 所有板块内容相似，都是由左右两个div组成 -->
+            <!-- 左边的div充当一个标签 -->
+            <div class="left">
+                <h1>书籍</h1>
+            </div>
+
+            <!-- 左右div通过浮动分布在内容div中 -->
+            <div class="right">
+                <!-- 右侧div可以上下分为三个部分 -->
+                <div class="right_row">
+                    <!-- 每个部分又由两部分组成 -->
+                    <!-- 左边是照片 -->
+                    <div class="itempic" id="ipic01"></div>
+                    <!-- 右边是评鉴，通过一个表格的方式呈现 -->
+                    <div class="comment">
+                        <table class="table_comment">
+                            <!-- 表格为四行两列 -->
+                            <tr>
+                                <th>书名</th>
+                                <td>《太阳之塔》——森见登美彦</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>青春、现实、小说</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>5.0/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>森见老师的成名作，不过读多少遍都还是觉得那么有趣</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_row">
+                    <div class="itempic" id="ipic02"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>书名</th>
+                                <td>《万火归一》——胡利奥·科塔萨尔</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>超现实、意识流、奇幻</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>4.0/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>受人推荐阅读，发现自己的想象力和文学功力根本读不懂……但是确实是本好书</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_row">
+                    <div class="itempic" id="ipic03"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>书名</th>
+                                <td>《少女终末旅行》——つくみず</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>架空、末日、漫画</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>100/5.0(超过满分的存在)</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>能让你重新审视存在和生命的意义，目前我读过最棒的一部漫画</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- 剩余部分是上方内容的重复修改 -->
+        <div class="transpic" id="transpic02"></div>
+        <div class="frame" class="middle" id="COMIC">
+            <div class="left">
+                <h1>番剧</h1>
+            </div>
+
+            <div class="right">
+                <div class="right_row">
+                    <div class="itempic" id="ipic04"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>番名</th>
+                                <td>《鬼灭之刃 游郭篇》</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>少年、热血、战斗</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>4.5/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>幽浮社的作画简直神了……</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_row">
+                    <div class="itempic" id="ipic05"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>番名</th>
+                                <td>《处刑少女的生存之道》</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>奇幻、魔法、穿越</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>2.5/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>为了mili而来，但是这个整体质量真的是一言难尽</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_row">
+                    <div class="itempic" id="ipic06"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>番名</th>
+                                <td>《间谍过家家》</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>架空、家庭、搞笑</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>4.0/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>合家欢的无厘头喜剧，近几年少有的高质量搞笑作品</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- 剩余部分是上方内容的重复修改 -->
+        <div class="transpic" id="transpic03"></div>
+        <div class="frame" class="middle" id="FILM">
+            <div class="left">
+                <h1>电影</h1>
+            </div>
+
+            <div class="right">
+                <div class="right_row">
+                    <div class="itempic" id="ipic07"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>电影名</th>
+                                <td>《神秘海域》</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>冒险、动作、游戏改</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>2.0/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>所以说制作人到底为什么想不开非要翻拍？我还不如去玩游戏……</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_row">
+                    <div class="itempic" id="ipic08"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>电影名</th>
+                                <td>《新蝙蝠侠》</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>架空、动作、剧情</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>3.5/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>不是诺兰拍的老爷还是差点意思</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="right_row">
+                    <div class="itempic" id="ipic09"></div>
+                    <div class="comment">
+                        <table class="table_comment">
+
+                            <tr>
+                                <th>电影名</th>
+                                <td>《蜘蛛侠3英雄无归》</td>
+                            </tr>
+                            <tr>
+                                <th>类型</th>
+                                <td>超级英雄、动作、战斗、科幻</td>
+                            </tr>
+                            <tr>
+                                <th>自我评分</th>
+                                <td>3.0/5.0</td>
+                            </tr>
+                            <tr>
+                                <th>简要评价</th>
+                                <td>不太彳亍，感觉很一般，远没有第二部来的那么有新意</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- 以下是网站的页脚部分 -->
+    <footer>
+        <!-- 视觉效果上形成一道分割线 -->
+        <div id="split">
+        </div>
+
+        <!-- 这个盒子里装着实际的页脚内容 -->
+        <div class="middle">
+            <!-- 页脚左边：联系方式 -->
+            <div class="Part" id="PartOne">
+                <img src="image/Snipaste_2022-06-22_15-44-41.png" alt="QQ二维码" id="QQ">
+                <table id="infor">
+                    <tr>
+                        <th>QQ:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp1805415732</td>
+                    </tr>
+                    <tr>
+                        <th>邮箱:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp1805415732@qq.com</td>
+                    </tr>
+                    <tr>
+                        <th>steam:</th>
+                        <td>&nbsp&nbsp&nbsp&nbsp是个好人</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- 页脚中间：头像姓名 -->
+            <div class="Part" id="PartTwo">
+                <div id="touXiang">
+                    <img src="image/头像.png" alt="头像" id="touxiang"><br> 宋岳朋
+                </div>
+            </div>
+            <!-- 页脚右侧：感谢语句 -->
+            <div class="Part" id="PartThree">
+                感谢您的访问！
+            </div>
+        </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
